@@ -1,0 +1,84 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+    width:100%;
+    margin:0;
+    background-image:url("../memphis-colorful.png");    
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size:40px;
+    margin: 10px;
+    display:flex;
+    justify-content:center;
+
+}
+
+.box{
+    border:1px solid black;
+    border-radius:8px;
+    width:100px;
+    height:100px;
+}
+
+@media(max-width:768px){
+    .box{
+        width:80px;
+        height:80px;
+    }
+}
+
+@media(max-width:480px){
+    .box{
+        width:65px;
+        height:65px;
+    }
+}
+
+#board{
+    text-align:center;
+    font-size: 30px;
+    font-weight:600;
+}
+
+.player-scores {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#player1{
+    font-size: 20px;
+    font-weight:600;
+}
+
+#player2{
+    font-size: 20px;
+    font-weight:600;
+    /* float:right; */
+    /* margin-right:450px; */
+    margin-left: 10px;
+}
+
+.red, #x {
+    color:red;
+}
+
+.blue, #o{
+    color:blue
+}

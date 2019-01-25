@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Tic Tac Toe </title>
+		<!-- Link to CSS -->
+		<link href="./style.css" rel="stylesheet"/>
+		<!-- Link to google font selected -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+	</head>
+
+	<body>
+		<div id="main-container">
+			<h1> Tic Tac Toe</h1>
+			<div class="player-scores">
+				<p id = "player1">Player 1 = <span id="x">"X"</span></p>
+				<p id = "player2">Player 2 = <span id="o">"O"</span></p>
+			</div>
+
+			
+			<table id="board">
+				<tr id="row1" class="row">
+					<td id="box1" class="box"></td>
+					<td id="box2" class="box"></td>
+					<td id="box3" class="box"></td>
+				</tr>
+
+				<tr id="row2" class="row">
+					<td id="box4" class="box"></td>
+					<td id="box5" class="box"></td>
+					<td id="box6" class="box"></td>
+				</tr>
+
+				<tr id="row3" class="row">
+					<td id="box7" class="box"></td>
+					<td id="box8" class="box"></td>
+					<td id="box9" class="box"></td>
+				</tr>
+			</table>
+
+			<div class = "buttons">
+				<div class = "button-play-again">
+					<button id ="play-again"> Play Again </button>
+				</div>
+				<br/>
+				<div class = button-reset-game>
+					<button id ="reset-game"> Reset Game </button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Link to JS -->
+		<script src="scripts.js"></script>
+	</body>
+</html>
+		
